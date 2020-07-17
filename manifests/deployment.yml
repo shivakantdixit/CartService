@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: shivakantdixitcartservice 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: shivakantdixitcartservice 
+    spec:
+      containers:
+        - name: shivakantdixitcartservice 
+          image: cr070920.azurecr.io/shivakantdixitcartservice
+          ports:
+          - containerPort: 80
