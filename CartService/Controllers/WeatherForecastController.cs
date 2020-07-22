@@ -42,5 +42,12 @@ namespace CartService.Controllers
         {
             return "Hello world...";
         }
+
+        [HttpGet]
+        [Route("/GetNews")]
+        public string GetNews()
+        {
+            return "International News....";
+        }
     }
 }
