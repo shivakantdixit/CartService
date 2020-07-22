@@ -59,11 +59,5 @@ namespace CartService.Controllers
         }
 
 
-        [HttpGet]
-        [Route("/GetDemo1")]
-        public string GetDemo1()
-        {
-            return "This is for demo again added new method ..";
-        }
     }
 }
