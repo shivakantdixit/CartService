@@ -49,5 +49,13 @@ namespace CartService.Controllers
         {
             return "International News....";
         }
+
+
+        [HttpGet]
+        [Route("/GetDemo")]
+        public string GetDemo()
+        {
+            return "This is for demo ..";
+        }
     }
 }
